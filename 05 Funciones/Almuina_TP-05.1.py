@@ -1,3 +1,5 @@
+#ejercicio 1
+
 multiplos_de_4 = [] # Lista que almacenará los múltiplos de 4
 
 for i in range(1, 101): # Iterar del 1 al 100
@@ -5,3 +7,11 @@ for i in range(1, 101): # Iterar del 1 al 100
         multiplos_de_4.append(i) # Agregar a la lista
 
 print("Los múltiplos de 4 entre 1 y 100 son:", multiplos_de_4) # Mostrar los múltiplos de 4
+
+# ejercicio 2
+
+cosas = ["naranja", "perro", "gato", "computadora", "trabajo"] # Lista que almacenará las cosas
+print("El pénultimo elemento de la lista es:", cosas[-2]) # Mostrar el último elemento de la lista
+
+# ejercicio 3
+
