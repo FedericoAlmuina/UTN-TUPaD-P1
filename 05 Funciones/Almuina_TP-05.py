@@ -1,3 +1,34 @@
+# ejercicio 1
+
+# se define la funcion
+def imprimir_hola_mundo():
+    print("Hola Mundo")
+# se llama a la funcion
+imprimir_hola_mundo()
+
+# ejercicio 2
+
+#se define la funcion 
+def saludar_usuario(nombre):
+    print(f"Hola {nombre}!")
+
+#se pide el nombre al usuario
+nombre = input("Ingresá tu nombre: ")
+#se llama a la funcion
+saludar_usuario(nombre)
+
+# ejercicio 3
+
+def informacion_personal(nombre, apellido,
+edad, residencia):
+    print(f"Soy {nombre} {apellido}, tengo {edad} años y vivo en {residencia}.")
+
+nombre = input("Ingresá tu nombre: ")
+apellido = input("Ingresá tu apellido: ")
+edad = input("Ingresá tu edad: ")
+residencia = input("Ingresá tu ciudad de residencia: ")
+informacion_personal(nombre, apellido, edad, residencia)
+
 # ejercicio 4
 
 import math
